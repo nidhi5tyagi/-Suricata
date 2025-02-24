@@ -112,24 +112,3 @@ Generate matching traffic and check alerts!
 
 ---
 
-## 5. Deliverables  
-1. **Suricata Configuration Screenshot**  
-   ```bash
-   cat /etc/suricata/suricata.yaml | grep -v "^#" | grep -v "^$"
-   ```
-   Take a screenshot of your terminal showing the config file.
-
-2. **Logs (ZIP File)**  
-   ```bash
-   sudo zip -r suricata_logs.zip /var/log/suricata/
-   ```
-
-3. **Report (3 Pages)**
-   - **Introduction:** Overview of Suricata and its purpose.
-   - **Setup:** Steps taken to install and configure Suricata.
-   - **Findings:** Logs, detections, and triggered alerts.
-   - **Issues & Solutions:** Problems encountered and fixes.
-
----
-
-**Happy Monitoring! 🚀**
